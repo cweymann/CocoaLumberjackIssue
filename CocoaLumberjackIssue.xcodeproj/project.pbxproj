@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE545E926C1D7F2D87BE4D1 /* Pods_CocoaLumberjackIssue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432114CE191FFD2F507405A3 /* Pods_CocoaLumberjackIssue.framework */; };
+		28FEC8425DDCF125F13B3567 /* Pods_CocoaLumberjackIssueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636150C2FFB1E0714C7B8874 /* Pods_CocoaLumberjackIssueTests.framework */; };
+		37E8A2832B714C0200743E18 /* CocoaLumberjackIssueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A2822B714C0200743E18 /* CocoaLumberjackIssueApp.swift */; };
+		37E8A2852B714C0200743E18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A2842B714C0200743E18 /* ContentView.swift */; };
+		37E8A2872B714C0300743E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E8A2862B714C0300743E18 /* Assets.xcassets */; };
+		37E8A28A2B714C0300743E18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E8A2892B714C0300743E18 /* Preview Assets.xcassets */; };
+		37E8A2942B714C0300743E18 /* CocoaLumberjackIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A2932B714C0300743E18 /* CocoaLumberjackIssueTests.swift */; };
+		37E8A29E2B714C0300743E18 /* CocoaLumberjackIssueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A29D2B714C0300743E18 /* CocoaLumberjackIssueUITests.swift */; };
+		37E8A2A02B714C0300743E18 /* CocoaLumberjackIssueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A29F2B714C0300743E18 /* CocoaLumberjackIssueUITestsLaunchTests.swift */; };
+		37E8A2AD2B714CDF00743E18 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A2AC2B714CDF00743E18 /* ViewModel.swift */; };
+		37E8A2AF2B714E8000743E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A2AE2B714E8000743E18 /* AppDelegate.swift */; };
+		907AC43C59C04EFFDC16F6DC /* Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F46077DAB9E833852817E0 /* Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E8A2902B714C0300743E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E8A2772B714C0200743E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E8A27E2B714C0200743E18;
+			remoteInfo = CocoaLumberjackIssue;
+		};
+		37E8A29A2B714C0300743E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E8A2772B714C0200743E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E8A27E2B714C0200743E18;
+			remoteInfo = CocoaLumberjackIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B5210AC9D9F00BF031DE86 /* Pods-CocoaLumberjackIssueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjackIssueTests.debug.xcconfig"; path = "Target Support Files/Pods-CocoaLumberjackIssueTests/Pods-CocoaLumberjackIssueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21F46077DAB9E833852817E0 /* Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B487CCB97209CB0BB7D376B /* Pods-CocoaLumberjackIssueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjackIssueTests.release.xcconfig"; path = "Target Support Files/Pods-CocoaLumberjackIssueTests/Pods-CocoaLumberjackIssueTests.release.xcconfig"; sourceTree = "<group>"; };
+		37E8A27F2B714C0200743E18 /* CocoaLumberjackIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaLumberjackIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E8A2822B714C0200743E18 /* CocoaLumberjackIssueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjackIssueApp.swift; sourceTree = "<group>"; };
+		37E8A2842B714C0200743E18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37E8A2862B714C0300743E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E8A2892B714C0300743E18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37E8A28F2B714C0300743E18 /* CocoaLumberjackIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjackIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E8A2932B714C0300743E18 /* CocoaLumberjackIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjackIssueTests.swift; sourceTree = "<group>"; };
+		37E8A2992B714C0300743E18 /* CocoaLumberjackIssueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjackIssueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E8A29D2B714C0300743E18 /* CocoaLumberjackIssueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjackIssueUITests.swift; sourceTree = "<group>"; };
+		37E8A29F2B714C0300743E18 /* CocoaLumberjackIssueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjackIssueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37E8A2AC2B714CDF00743E18 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		37E8A2AE2B714E8000743E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A1D9C206A4EFFB89441D48D /* Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.release.xcconfig"; path = "Target Support Files/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41D370992688268520D63312 /* Pods-CocoaLumberjackIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjackIssue.release.xcconfig"; path = "Target Support Files/Pods-CocoaLumberjackIssue/Pods-CocoaLumberjackIssue.release.xcconfig"; sourceTree = "<group>"; };
+		432114CE191FFD2F507405A3 /* Pods_CocoaLumberjackIssue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaLumberjackIssue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636150C2FFB1E0714C7B8874 /* Pods_CocoaLumberjackIssueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaLumberjackIssueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714D30CFAE7DFAFE5E1C0ABE /* Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.debug.xcconfig"; path = "Target Support Files/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73F9BAC7ED57C40F48BF628F /* Pods-CocoaLumberjackIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjackIssue.debug.xcconfig"; path = "Target Support Files/Pods-CocoaLumberjackIssue/Pods-CocoaLumberjackIssue.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E8A27C2B714C0200743E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE545E926C1D7F2D87BE4D1 /* Pods_CocoaLumberjackIssue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E8A28C2B714C0300743E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEC8425DDCF125F13B3567 /* Pods_CocoaLumberjackIssueTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E8A2962B714C0300743E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907AC43C59C04EFFDC16F6DC /* Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E8A2762B714C0200743E18 = {
+			isa = PBXGroup;
+			children = (
+				37E8A2812B714C0200743E18 /* CocoaLumberjackIssue */,
+				37E8A2922B714C0300743E18 /* CocoaLumberjackIssueTests */,
+				37E8A29C2B714C0300743E18 /* CocoaLumberjackIssueUITests */,
+				37E8A2802B714C0200743E18 /* Products */,
+				8ACFF92C36EB851A7C731394 /* Pods */,
+				DBBA0C444384FD04F4655594 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37E8A2802B714C0200743E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E8A27F2B714C0200743E18 /* CocoaLumberjackIssue.app */,
+				37E8A28F2B714C0300743E18 /* CocoaLumberjackIssueTests.xctest */,
+				37E8A2992B714C0300743E18 /* CocoaLumberjackIssueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E8A2812B714C0200743E18 /* CocoaLumberjackIssue */ = {
+			isa = PBXGroup;
+			children = (
+				37E8A2822B714C0200743E18 /* CocoaLumberjackIssueApp.swift */,
+				37E8A2AE2B714E8000743E18 /* AppDelegate.swift */,
+				37E8A2842B714C0200743E18 /* ContentView.swift */,
+				37E8A2AC2B714CDF00743E18 /* ViewModel.swift */,
+				37E8A2862B714C0300743E18 /* Assets.xcassets */,
+				37E8A2882B714C0300743E18 /* Preview Content */,
+			);
+			path = CocoaLumberjackIssue;
+			sourceTree = "<group>";
+		};
+		37E8A2882B714C0300743E18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37E8A2892B714C0300743E18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37E8A2922B714C0300743E18 /* CocoaLumberjackIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E8A2932B714C0300743E18 /* CocoaLumberjackIssueTests.swift */,
+			);
+			path = CocoaLumberjackIssueTests;
+			sourceTree = "<group>";
+		};
+		37E8A29C2B714C0300743E18 /* CocoaLumberjackIssueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37E8A29D2B714C0300743E18 /* CocoaLumberjackIssueUITests.swift */,
+				37E8A29F2B714C0300743E18 /* CocoaLumberjackIssueUITestsLaunchTests.swift */,
+			);
+			path = CocoaLumberjackIssueUITests;
+			sourceTree = "<group>";
+		};
+		8ACFF92C36EB851A7C731394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73F9BAC7ED57C40F48BF628F /* Pods-CocoaLumberjackIssue.debug.xcconfig */,
+				41D370992688268520D63312 /* Pods-CocoaLumberjackIssue.release.xcconfig */,
+				714D30CFAE7DFAFE5E1C0ABE /* Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.debug.xcconfig */,
+				3A1D9C206A4EFFB89441D48D /* Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.release.xcconfig */,
+				17B5210AC9D9F00BF031DE86 /* Pods-CocoaLumberjackIssueTests.debug.xcconfig */,
+				2B487CCB97209CB0BB7D376B /* Pods-CocoaLumberjackIssueTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBBA0C444384FD04F4655594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432114CE191FFD2F507405A3 /* Pods_CocoaLumberjackIssue.framework */,
+				21F46077DAB9E833852817E0 /* Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests.framework */,
+				636150C2FFB1E0714C7B8874 /* Pods_CocoaLumberjackIssueTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E8A27E2B714C0200743E18 /* CocoaLumberjackIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E8A2A32B714C0300743E18 /* Build configuration list for PBXNativeTarget "CocoaLumberjackIssue" */;
+			buildPhases = (
+				6662265A96C68CC599DDC942 /* [CP] Check Pods Manifest.lock */,
+				37E8A27B2B714C0200743E18 /* Sources */,
+				37E8A27C2B714C0200743E18 /* Frameworks */,
+				37E8A27D2B714C0200743E18 /* Resources */,
+				ED7FC62EFC2845D6081C99AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjackIssue;
+			productName = CocoaLumberjackIssue;
+			productReference = 37E8A27F2B714C0200743E18 /* CocoaLumberjackIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E8A28E2B714C0300743E18 /* CocoaLumberjackIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E8A2A62B714C0300743E18 /* Build configuration list for PBXNativeTarget "CocoaLumberjackIssueTests" */;
+			buildPhases = (
+				644DD457948E5B7A094DB882 /* [CP] Check Pods Manifest.lock */,
+				37E8A28B2B714C0300743E18 /* Sources */,
+				37E8A28C2B714C0300743E18 /* Frameworks */,
+				37E8A28D2B714C0300743E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E8A2912B714C0300743E18 /* PBXTargetDependency */,
+			);
+			name = CocoaLumberjackIssueTests;
+			productName = CocoaLumberjackIssueTests;
+			productReference = 37E8A28F2B714C0300743E18 /* CocoaLumberjackIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37E8A2982B714C0300743E18 /* CocoaLumberjackIssueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E8A2A92B714C0300743E18 /* Build configuration list for PBXNativeTarget "CocoaLumberjackIssueUITests" */;
+			buildPhases = (
+				83EB11A5CFA50115F45ED48A /* [CP] Check Pods Manifest.lock */,
+				37E8A2952B714C0300743E18 /* Sources */,
+				37E8A2962B714C0300743E18 /* Frameworks */,
+				37E8A2972B714C0300743E18 /* Resources */,
+				EB3876D56F9553F5E9D2F203 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E8A29B2B714C0300743E18 /* PBXTargetDependency */,
+			);
+			name = CocoaLumberjackIssueUITests;
+			productName = CocoaLumberjackIssueUITests;
+			productReference = 37E8A2992B714C0300743E18 /* CocoaLumberjackIssueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E8A2772B714C0200743E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					37E8A27E2B714C0200743E18 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					37E8A28E2B714C0300743E18 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 37E8A27E2B714C0200743E18;
+					};
+					37E8A2982B714C0300743E18 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 37E8A27E2B714C0200743E18;
+					};
+				};
+			};
+			buildConfigurationList = 37E8A27A2B714C0200743E18 /* Build configuration list for PBXProject "CocoaLumberjackIssue" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E8A2762B714C0200743E18;
+			productRefGroup = 37E8A2802B714C0200743E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E8A27E2B714C0200743E18 /* CocoaLumberjackIssue */,
+				37E8A28E2B714C0300743E18 /* CocoaLumberjackIssueTests */,
+				37E8A2982B714C0300743E18 /* CocoaLumberjackIssueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E8A27D2B714C0200743E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E8A28A2B714C0300743E18 /* Preview Assets.xcassets in Resources */,
+				37E8A2872B714C0300743E18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E8A28D2B714C0300743E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E8A2972B714C0300743E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		644DD457948E5B7A094DB882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoaLumberjackIssueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6662265A96C68CC599DDC942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoaLumberjackIssue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83EB11A5CFA50115F45ED48A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3876D56F9553F5E9D2F203 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests/Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7FC62EFC2845D6081C99AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue/Pods-CocoaLumberjackIssue-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue/Pods-CocoaLumberjackIssue-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue/test.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E8A27B2B714C0200743E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E8A2AF2B714E8000743E18 /* AppDelegate.swift in Sources */,
+				37E8A2852B714C0200743E18 /* ContentView.swift in Sources */,
+				37E8A2AD2B714CDF00743E18 /* ViewModel.swift in Sources */,
+				37E8A2832B714C0200743E18 /* CocoaLumberjackIssueApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E8A28B2B714C0300743E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E8A2942B714C0300743E18 /* CocoaLumberjackIssueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E8A2952B714C0300743E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E8A2A02B714C0300743E18 /* CocoaLumberjackIssueUITestsLaunchTests.swift in Sources */,
+				37E8A29E2B714C0300743E18 /* CocoaLumberjackIssueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E8A2912B714C0300743E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E8A27E2B714C0200743E18 /* CocoaLumberjackIssue */;
+			targetProxy = 37E8A2902B714C0300743E18 /* PBXContainerItemProxy */;
+		};
+		37E8A29B2B714C0300743E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E8A27E2B714C0200743E18 /* CocoaLumberjackIssue */;
+			targetProxy = 37E8A29A2B714C0300743E18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37E8A2A12B714C0300743E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37E8A2A22B714C0300743E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E8A2A42B714C0300743E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F9BAC7ED57C40F48BF628F /* Pods-CocoaLumberjackIssue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CocoaLumberjackIssue/Preview Content\"";
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.avm.demo.libs.CocoaLumberjackIssue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E8A2A52B714C0300743E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D370992688268520D63312 /* Pods-CocoaLumberjackIssue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CocoaLumberjackIssue/Preview Content\"";
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.avm.demo.libs.CocoaLumberjackIssue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37E8A2A72B714C0300743E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B5210AC9D9F00BF031DE86 /* Pods-CocoaLumberjackIssueTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.avm.demo.libs.CocoaLumberjackIssueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjackIssue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CocoaLumberjackIssue";
+			};
+			name = Debug;
+		};
+		37E8A2A82B714C0300743E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B487CCB97209CB0BB7D376B /* Pods-CocoaLumberjackIssueTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.avm.demo.libs.CocoaLumberjackIssueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjackIssue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CocoaLumberjackIssue";
+			};
+			name = Release;
+		};
+		37E8A2AA2B714C0300743E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714D30CFAE7DFAFE5E1C0ABE /* Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.avm.demo.libs.CocoaLumberjackIssueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoaLumberjackIssue;
+			};
+			name = Debug;
+		};
+		37E8A2AB2B714C0300743E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1D9C206A4EFFB89441D48D /* Pods-CocoaLumberjackIssue-CocoaLumberjackIssueUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.avm.demo.libs.CocoaLumberjackIssueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoaLumberjackIssue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E8A27A2B714C0200743E18 /* Build configuration list for PBXProject "CocoaLumberjackIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E8A2A12B714C0300743E18 /* Debug */,
+				37E8A2A22B714C0300743E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E8A2A32B714C0300743E18 /* Build configuration list for PBXNativeTarget "CocoaLumberjackIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E8A2A42B714C0300743E18 /* Debug */,
+				37E8A2A52B714C0300743E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E8A2A62B714C0300743E18 /* Build configuration list for PBXNativeTarget "CocoaLumberjackIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E8A2A72B714C0300743E18 /* Debug */,
+				37E8A2A82B714C0300743E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E8A2A92B714C0300743E18 /* Build configuration list for PBXNativeTarget "CocoaLumberjackIssueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E8A2AA2B714C0300743E18 /* Debug */,
+				37E8A2AB2B714C0300743E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E8A2772B714C0200743E18 /* Project object */;
+}

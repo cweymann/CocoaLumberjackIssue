@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests : NSObject
+@end
+@implementation PodsDummy_Pods_CocoaLumberjackIssue_CocoaLumberjackIssueUITests
+@end
