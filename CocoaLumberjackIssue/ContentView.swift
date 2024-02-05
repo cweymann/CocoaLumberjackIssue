@@ -9,20 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
 	@State var viewModel = ViewModel()
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-		.onAppear() {
-			viewModel.logInfo()
+	var body: some View {
+		VStack {
+			Image(systemName: "exclamationmark.triangle.fill")
+				.imageScale(.large)
+				.foregroundStyle(.tint)
+			Text("Demo for cashing CocoaLumberjack!")
+			Button("Call registeredClassNames") {
+				viewModel.logInfo()
+			}
 		}
-        .padding()
-    }
+		.padding()
+	}
 }
 
 #Preview {
-    ContentView()
+	ContentView()
 }
+

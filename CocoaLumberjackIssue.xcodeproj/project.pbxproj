@@ -401,7 +401,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue/test.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CocoaLumberjackIssue/Pods-CocoaLumberjackIssue-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

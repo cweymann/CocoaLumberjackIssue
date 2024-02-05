@@ -10,10 +10,11 @@ import SwiftUI
 @main
 struct CocoaLumberjackIssueApp: App {
 	@UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+		}
+	}
 }
+
